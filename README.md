@@ -1,2 +1,2 @@
 # Smart-Home-IoT
- University project where we connected Arduino Uno microcontroller with Flask Python Webserver
+ University project where we connected Arduino Uno microcontroller with Flask Python Webserver and ThingSpeak online platform
