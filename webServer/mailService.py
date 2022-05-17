@@ -29,10 +29,8 @@ def sendEmail():
         field1Avg = field1 / feedNum
         field2Avg = field2 / feedNum
 
-        EMAIL_ADDRESS = "s4yur1.chan.006@gmail.com"
-        PASSWORD = "root_pass_006"
-        #EMAIL_ADDRESS = ""
-        #PASSWORD = ""
+        EMAIL_ADDRESS = "insertEmailHere"
+        PASSWORD = "insertPasswordHere"
 
         resCode = server.login(EMAIL_ADDRESS, PASSWORD)
 
@@ -40,6 +38,6 @@ def sendEmail():
         body = "Body content..\n \n Temperature: {} \n Brightness: {} \n Doors opened: {} \n Relay opened: {}".format(field1Avg, field2Avg, field3, field4)
         fullEmail = "Subject: {}\n\n{}".format(subject, body)
 
-        resCode = server.sendmail(from_addr=EMAIL_ADDRESS, to_addrs="s4yur1.chan.006@gmail.com", msg=fullEmail)
+        resCode = server.sendmail(from_addr=EMAIL_ADDRESS, to_addrs="insertEmailHere", msg=fullEmail)
 
         server.quit()
