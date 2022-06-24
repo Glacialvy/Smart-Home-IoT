@@ -2,9 +2,9 @@ import time
 import urllib.request
 import requests
 
-WRITE_KEY = "BEAYX6F8DLHKJ1A7"
-READ_KEY = "OMG426G6MQS5BCGX"
-CHANNEL_ID = 1727538
+WRITE_KEY = "WriteKeyhere"
+READ_KEY = "ReadKeyHere"
+CHANNEL_ID = 123123123
 
 def sendData(temperature, brightness, doorCounter, relayCounter):
 
